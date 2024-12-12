@@ -6,7 +6,9 @@ function Main() {
     return (
         <>
             <main>
-                <Card />
+                <ul>
+                    <Card />
+                </ul>
             </main>
         </>
     )
