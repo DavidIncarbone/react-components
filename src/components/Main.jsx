@@ -2,7 +2,7 @@ function Main() {
     return (
         <main className="pb-5">
             <div className="card container " style={{
-                width: 18 + "rem"
+                width: 30 + "rem"
             }}>
                 <img className="card-img-top" src="/blog-1.avif" alt="Card image cap" />
                 <div className="card-body">
