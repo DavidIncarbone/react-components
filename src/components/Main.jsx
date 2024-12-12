@@ -4,14 +4,13 @@ import Card from "./Card"
 function Main() {
 
     return (
-        <>
-            <main>
-                <ul>
-                    <Card />
-                </ul>
-            </main>
-        </>
+        <main>
+            <ul>
+                {posts.map(post => (
+                    <Card title={post.titolo} description={post.descrizione} image={post.immagine} key={post.id} />
+                ))}
+            </ul>
+        </main>
     )
 }
-
 export default Main
