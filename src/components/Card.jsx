@@ -1,17 +1,12 @@
 import Button from "./Button";
 import posts from "../data/posts"
 
-console.log(posts.length)
-
 function Card() {
 
     return (
         posts.map((post) => {
             return (
-
-
-                <li key={post.id}>
-
+                <li key={post.id} className="list-unstyled">
                     <div className="card container mb-5" style={{
                         width: 30 + "rem"
                     }}>
