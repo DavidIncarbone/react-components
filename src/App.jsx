@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Card from "./components/Card";
+import Main from "./components/Main";
 import Footer from "./components/Footer";
 import { useState } from 'react'
 import './App.css'
@@ -8,15 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-
-      </main>
-
+      <Main />
       <Footer />
 
     </>

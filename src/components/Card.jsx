@@ -1,7 +1,7 @@
 import Button from "./Button";
-import posts from "../data/posts"
 
 function Card(titolo, descrizione, immagine) {
+
     return (
 
         <div className="card container mb-5" style={{
