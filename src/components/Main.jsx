@@ -1,14 +1,13 @@
+import posts from "../data/posts"
 import Card from "./Card"
 
 function Main() {
 
     return (
         <>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <main>
+                <Card />
+            </main>
         </>
     )
 }
